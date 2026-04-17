@@ -1,0 +1,31 @@
+catégorie	Cattex	UD	commentaire
+nombre	NOMB.=s	Number=Sing	
+nombre	NOMB.=p	Number=Plur	
+nombre	NOMB.=x	NA	
+genre	GENRE=f	Gender=Fem	
+genre	GENRE=m	Gender=Masc	
+genre	GENRE=n	Gender=Neut	
+genre	GENRE=x	Aconvertir	pas d’étiquette en UD lorsqu’il y a indétermination Gender=Com (à utiliser quand  il s’agit d’un mot épicène ou un mot à double genre (sans détermination possible dans le contexte)
+cas	CAS=n	Case=Nom	
+cas	CAS=r	Case=Acc	accusative/oblique
+cas   	CAS=i	Case=Dat	
+cas	CAS=x	NA	
+mode 	MODE=ind	Mood=Ind	
+mode   	MODE=sub	Mood=Sub	
+mode   	MODE=con	Mood=Cnd	
+mode   	MODE=imp	Mood=Imp	
+mode	MODE=x	NA	
+temps	TEMPS=pst	Tense=Pres	
+temps	TEMPS=psp	Tense=Past	
+temps  	TEMPS=ipf	Tense=Imp	
+temps  	TEMPS=fut	Tense=Fut	
+temps	TEMPS=x	NA	
+personne	PERS.=0	Person=0	sert à étiqueter en et y (ex PROadv Cattex)
+personne	PERS.=1	Person=1	
+personne  	PERS.=2	Person=2	
+personne  	PERS.=3	Person=3	
+personne 	PERS.=4	Person=4	
+personne	PERS.=5	Person=5	existe pas dans doc UD
+personne	PERS.=6	Person=6	existe pas dans doc UD
+personne	PERS.=x	NA	
+morphologie vide	MORPH=empty	_	

@@ -1,0 +1,60 @@
+intitulé	UD	UD-feats
+abréviation	X	Abbr=Yes
+adjectif cardinal	ADJ	NumType=Card
+adjectif indéfini	ADJ	PronType=Ind
+adjectif ordinal	ADJ	NumType=Ord
+adjectif possessif	ADJ	Poss=Yes
+adjectif qualificatif	ADJ	_
+adverbe général et adverbe subordonnant	ADV	_
+enclise adverbe et pronom adverbial	ADV+PRON	_+PronType=Prs
+enclise adverbe et pronom personnel	ADV+PRON	_+PronType=Prs
+adverbe interro-négatif	ADV	Polarity=Neg|PronType=Int
+adverbe interrogatif	ADV	PronType=Int
+adverbe négatif	ADV	Polarity=Neg
+enclise adverbe négatif et pronom adverbial	ADV+PRON	Polarity=Neg+PronType=Prs
+enclise adverbe négatif et pronom personnel	ADV+PRON	Polarity=Neg+PronType=Prs
+conjonction de coordination	CCONJ	_
+conjonction de subordination	SCONJ	_
+enclise conjonction de subordination et pronom personnel	SCONJ.PRON	_+PronType=Prs
+déterminant cardinal	DET	NumType=Card
+déterminant composé	DET	Definite=Def|PronType=Art
+déterminant défini	DET	Definite=Def|PronType=Art
+déterminant démonstratif	DET	PronType=Dem
+déterminant indéfini	DET	PronType=Ind
+déterminant interrogatif	DET	PronType=Int
+déterminant non-défini	DET	Definite=Ind|PronType=Art
+déterminant ordinal	DET	NumType=Ord
+déterminant possessif	DET	Poss=Yes
+déterminant relatif	DET	PronType=Rel
+mot langue étrangère	X	Foreign=Yes
+interjection	INTJ	_
+substantif	NOUN	_
+nom propre	PROPN	_
+ce qui n’a pas été retenu (OUT, RED, RES)	X	_
+ponctuation	PUNCT	_
+préposition	ADP	_
+enclise préposition déterminant composé	ADP+DET	_+Definite=Def|PronType=Art
+enclise préposition déterminant défini	ADP+DET	_+Definite=Def|PronType=Art
+enclise préposition déterminant relatif	ADP+DET	_+PronType=Rel
+enclise préposition pronom personnel	ADP+PRON	_+PronType=Prs
+enclise préposition pronom relatif	ADP+PRON	_+PronType=Rel
+pronom adverbial	PRON	PronType=Prs
+pronom cardinal	PRON	NumType=Card
+pronom composé	PRON	Definite=Def|PronType=Art
+pronom démonstratif	PRON	PronType=Dem
+pronom personnel	PRON	PronType=Prs
+pronom indéfini	PRON	PronType=Ind
+pronom interrogatif	PRON	PronType=Int
+enclise pronom interrogatif pronom personnel	PRON+PRON	PronType=Int+PronType=Prs
+pronom ordinal	PRON	NumType=Ord
+pronom personnel	PRON	PronType=Prs
+enclise pronom personnel pronom adverbial	PRON+PRON	PronType=Prs+PronType=Prs
+enclise pronom personnel pronom personnel	PRON+PRON	PronType=Prs+PronType=Prs
+pronom possessif	PRON	Poss=Yes
+pronom relatif	PRON	PronType=Rel
+enclise pronom relatif pronom adverbial	PRON+PRON	PronType=Rel+PronType=Prs
+enclise pronom relatif pronom personnel	PRON+PRON	PronType=Rel+PronType=Prs
+verbe conjugué	VERB	VerbForm=Fin
+verbe à l’infinitif	VERB	VerbForm=Inf
+verbe au participe présent	VERB	Tense=Pres|VerbForm=Part
+verbe au participe passé	VERB	Tense=Past|VerbForm=Part

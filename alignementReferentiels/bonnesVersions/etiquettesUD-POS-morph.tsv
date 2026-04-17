@@ -1,0 +1,225 @@
+intitulé	UD	UD-pos	ajout morph	UD-feats complet	commentaire
+abréviation	X	Abbr=Yes	_	_	ordre alphabétique ? | ajouter adjectif démonstratif ?
+adjectif cardinal singulier féminin sujet	ADJ	NumType=Card	Case=Nom|Gender=Fem|Number=Sing 	Case=Nom|Gender=Fem|Number=Sing|NumType=Card	
+adjectif cardinal singulier féminin régime	ADJ	NumType=Card	Case=Acc|Gender=Fem|Number=Sing	Case=Acc|Gender=Fem|Number=Sing|NumType=Card	
+adjectif cardinal pluriel féminin sujet	ADJ	NumType=Card	Case=Nom|Gender=Fem|Number=Plur 	Case=Nom|Gender=Fem|Number=Plur|NumType=Card	
+adjectif cardinal pluriel féminin régime	ADJ	NumType=Card	Case=Acc|Gender=Fem|Number=Plur	Case=Acc|Gender=Fem|Number=Plur|NumType=Card	
+adjectif cardinal singulier masculin sujet	ADJ	NumType=Card	Case=Nom|Gender=Masc|Number=Sing 	Case=Nom|Gender=Masc|Number=Sing|NumType=Card	
+adjectif cardinal singulier masculin régime	ADJ	NumType=Card	Case=Acc|Gender=Masc|Number=Sing	Case=Acc|Gender=Masc|Number=Sing|NumType=Card	
+adjectif cardinal pluriel masculin sujet	ADJ	NumType=Card	Case=Nom|Gender=Masc|Number=Plur 	Case=Nom|Gender=Masc|Number=Plur|NumType=Card	
+adjectif cardinal pluriel masculin régime	ADJ	NumType=Card	Case=Acc|Gender=Masc|Number=Plur	Case=Acc|Gender=Masc|Number=Plur|NumType=Card	
+adjectif cardinal singulier neutre sujet	ADJ	NumType=Card	Case=Nom|Gender=Neut|Number=Sing 	Case=Nom|Gender=Neut|Number=Sing|NumType=Card	
+adjectif cardinal singulier neutre régime	ADJ	NumType=Card	Case=Acc|Gender=Neut|Number=Sing	Case=Acc|Gender=Neut|Number=Sing|NumType=Card	
+adjectif cardinal pluriel neutre sujet	ADJ	NumType=Card	Case=Nom|Gender=Neut|Number=Plur 	Case=Nom|Gender=Neut|Number=Plur|NumType=Card	
+adjectif cardinal pluriel neutre régime	ADJ	NumType=Card	Case=Acc|Gender=Neut|Number=Plur	Case=Acc|Gender=Neut|Number=Plur|NumType=Card	
+adjectif indéfini singulier féminin sujet	ADJ	PronType=Ind	Case=Nom|Gender=Fem|Number=Sing 	Case=Nom|Gender=Fem|Number=Sing|PronType=Ind	
+adjectif indéfini singulier féminin régime	ADJ	PronType=Ind	Case=Acc|Gender=Fem|Number=Sing	Case=Acc|Gender=Fem|Number=Sing|PronType=Ind	
+adjectif indéfini pluriel féminin sujet	ADJ	PronType=Ind	Case=Nom|Gender=Fem|Number=Plur 	Case=Nom|Gender=Fem|Number=Plur|PronType=Ind	
+adjectif indéfini pluriel féminin régime	ADJ	PronType=Ind	Case=Acc|Gender=Fem|Number=Plur	Case=Acc|Gender=Fem|Number=Plur|PronType=Ind	
+adjectif indéfini singulier masculin sujet	ADJ	PronType=Ind	Case=Nom|Gender=Masc|Number=Sing 	Case=Nom|Gender=Masc|Number=Sing|PronType=Ind	
+adjectif indéfini singulier masculin régime	ADJ	PronType=Ind	Case=Acc|Gender=Masc|Number=Sing	Case=Acc|Gender=Masc|Number=Sing|PronType=Ind	
+adjectif indéfini pluriel masculin sujet	ADJ	PronType=Ind	Case=Nom|Gender=Masc|Number=Plur 	Case=Nom|Gender=Masc|Number=Plur|PronType=Ind	
+adjectif indéfini pluriel masculin régime	ADJ	PronType=Ind	Case=Acc|Gender=Masc|Number=Plur	Case=Acc|Gender=Masc|Number=Plur|PronType=Ind	
+adjectif indéfini singulier neutre sujet	ADJ	PronType=Ind	Case=Nom|Gender=Neut|Number=Sing 	Case=Nom|Gender=Neut|Number=Sing|PronType=Ind	
+adjectif indéfini singulier neutre régime	ADJ	PronType=Ind	Case=Acc|Gender=Neut|Number=Sing	Case=Acc|Gender=Neut|Number=Sing|PronType=Ind	
+adjectif indéfini pluriel neutre sujet	ADJ	PronType=Ind	Case=Nom|Gender=Neut|Number=Plur 	Case=Nom|Gender=Neut|Number=Plur|PronType=Ind	
+adjectif indéfini pluriel neutre régime	ADJ	PronType=Ind	Case=Acc|Gender=Neut|Number=Plur	Case=Acc|Gender=Neut|Number=Plur|PronType=Ind	
+adjectif ordinal singulier féminin sujet	ADJ	NumType=Ord	Case=Nom|Gender=Fem|Number=Sing	Case=Nom|Gender=Fem|Number=Sing|NumType=Ord	
+adjectif ordinal singulier féminin régime	ADJ	NumType=Ord	Case=Acc|Gender=Fem|Number=Sing	Case=Acc|Gender=Fem|Number=Sing|NumType=Ord	
+adjectif ordinal pluriel féminin sujet	ADJ	NumType=Ord	Case=Nom|Gender=Fem|Number=Plur 	Case=Nom|Gender=Fem|Number=Plur|NumType=Ord	
+adjectif ordinal pluriel féminin régime	ADJ	NumType=Ord	Case=Acc|Gender=Fem|Number=Plur	Case=Acc|Gender=Fem|Number=Plur|NumType=Ord	
+adjectif ordinal singulier masculin sujet	ADJ	NumType=Ord	Case=Nom|Gender=Masc|Number=Sing 	Case=Nom|Gender=Masc|Number=Sing|NumType=Ord	
+adjectif ordinal singulier masculin régime	ADJ	NumType=Ord	Case=Acc|Gender=Masc|Number=Sing	Case=Acc|Gender=Masc|Number=Sing|NumType=Ord	
+adjectif ordinal pluriel masculin sujet	ADJ	NumType=Ord	Case=Nom|Gender=Masc|Number=Plur 	Case=Nom|Gender=Masc|Number=Plur|NumType=Ord	
+adjectif ordinal pluriel masculin régime	ADJ	NumType=Ord	Case=Acc|Gender=Masc|Number=Plur	Case=Acc|Gender=Masc|Number=Plur|NumType=Ord	
+adjectif ordinal singulier neutre sujet	ADJ	NumType=Ord	Case=Nom|Gender=Neut|Number=Sing 	Case=Nom|Gender=Neut|Number=Sing|NumType=Ord	
+adjectif ordinal singulier neutre régime	ADJ	NumType=Ord	Case=Acc|Gender=Neut|Number=Sing	Case=Acc|Gender=Neut|Number=Sing|NumType=Ord	
+adjectif ordinal pluriel neutre sujet	ADJ	NumType=Ord	Case=Nom|Gender=Neut|Number=Plur 	Case=Nom|Gender=Neut|Number=Plur|NumType=Ord	
+adjectif ordinal pluriel neutre régime	ADJ	NumType=Ord	Case=Acc|Gender=Neut|Number=Plur	Case=Acc|Gender=Neut|Number=Plur|NumType=Ord	
+	ADJ	Poss=Yes			
+adjectif qualificatif singulier féminin sujet	ADJ	_	Case=Nom|Gender=Fem|Number=Sing	Case=Nom|Gender=Fem|Number=Sing	
+adjectif qualificatif singulier féminin régime	ADJ	_	Case=Acc|Gender=Fem|Number=Sing	Case=Acc|Gender=Fem|Number=Sing	
+adjectif qualificatif pluriel féminin sujet	ADJ	_	Case=Nom|Gender=Fem|Number=Plur 	Case=Nom|Gender=Fem|Number=Plur	
+adjectif qualificatif pluriel féminin régime	ADJ	_	Case=Acc|Gender=Fem|Number=Plur	Case=Acc|Gender=Fem|Number=Plur	
+adjectif qualificatif singulier masculin sujet	ADJ	_	Case=Nom|Gender=Masc|Number=Sing 	Case=Nom|Gender=Masc|Number=Sing	
+adjectif qualificatif singulier masculin régime	ADJ	_	Case=Acc|Gender=Masc|Number=Sing	Case=Acc|Gender=Masc|Number=Sing	
+adjectif qualificatif pluriel masculin sujet	ADJ	_	Case=Nom|Gender=Masc|Number=Plur 	Case=Nom|Gender=Masc|Number=Plur	
+adjectif qualificatif pluriel masculin régime	ADJ	_	Case=Acc|Gender=Masc|Number=Plur	Case=Acc|Gender=Masc|Number=Plur	
+adjectif qualificatif singulier neutre sujet	ADJ	_	Case=Nom|Gender=Neut|Number=Sing 	Case=Nom|Gender=Neut|Number=Sing	
+adjectif qualificatif singulier neutre régime	ADJ	_	Case=Acc|Gender=Neut|Number=Sing	Case=Acc|Gender=Neut|Number=Sing	
+adjectif qualificatif pluriel neutre sujet	ADJ	_	Case=Nom|Gender=Neut|Number=Plur 	Case=Nom|Gender=Neut|Number=Plur	
+adjectif qualificatif pluriel neutre régime	ADJ	_	Case=Acc|Gender=Neut|Number=Plur	Case=Acc|Gender=Neut|Number=Plur	
+adverbe	ADV	_	_	_	
+enclise adverbe et pronom adverbial	ADV.ADV	_.PronType=Dem	_	_.PronType=Dem	
+enclise adverbe et pronom personnel	ADV.PRON	_.PronType=Prs	#valeursduproper#	_.#valeursduproper#|PronType=Prs	attention ici
+adverbe interrogatif (comprend aussi les adverbes interro-négatifs)	ADV	PronType=Int	_	PronType=Int	
+adverbe négatif	ADV	Polarity=Neg	_	Polarity=Neg	
+enclise adverbe négatif et pronom adverbial	ADV.ADV	Polarity=Neg.PronType=Dem	_	Polarity=Neg.PronType=Dem	
+enclise adverbe négatif et pronom personnel	ADV.PRON	Polarity=Neg.PronType=Prs	#valeursduproper#	Polarity=Neg.#valeursduproper#|PronType=Prs	attention ici
+conjonction de coordination	CCONJ	_	_	_	
+conjonction de subordination	SCONJ	_	_		
+enclise conjonction de subordination et pronom personnel	SCONJ.PRON	_.PronType=Prs	#valeursduproper#	_.#valeursduproper#|PronType=Prs	attention ici
+déterminant cardinal singulier féminin sujet	DET	NumType=Card	Case=Nom|Gender=Fem|Number=Sing	Case=Nom|Gender=Fem|Number=Sing|NumType=Card	
+déterminant cardinal singulier féminin régime	DET	NumType=Card	Case=Acc|Gender=Fem|Number=Sing	Case=Acc|Gender=Fem|Number=Sing|NumType=Card	
+déterminant cardinal pluriel féminin sujet	DET	NumType=Card	Case=Nom|Gender=Fem|Number=Plur 	Case=Nom|Gender=Fem|Number=Plur|NumType=Card	
+déterminant cardinal pluriel féminin régime	DET	NumType=Card	Case=Acc|Gender=Fem|Number=Plur	Case=Acc|Gender=Fem|Number=Plur|NumType=Card	
+déterminant cardinal singulier masculin sujet	DET	NumType=Card	Case=Nom|Gender=Masc|Number=Sing 	Case=Nom|Gender=Masc|Number=Sing|NumType=Card	
+déterminant cardinal singulier masculin régime	DET	NumType=Card	Case=Acc|Gender=Masc|Number=Sing	Case=Acc|Gender=Masc|Number=Sing|NumType=Card	
+déterminant cardinal pluriel masculin sujet	DET	NumType=Card	Case=Nom|Gender=Masc|Number=Plur 	Case=Nom|Gender=Masc|Number=Plur|NumType=Card	
+déterminant cardinal pluriel masculin régime	DET	NumType=Card	Case=Acc|Gender=Masc|Number=Plur	Case=Acc|Gender=Masc|Number=Plur|NumType=Card	
+déterminant cardinal singulier neutre sujet	DET	NumType=Card	Case=Nom|Gender=Neut|Number=Sing 	Case=Nom|Gender=Neut|Number=Sing|NumType=Card	
+déterminant cardinal singulier neutre régime	DET	NumType=Card	Case=Acc|Gender=Neut|Number=Sing	Case=Acc|Gender=Neut|Number=Sing|NumType=Card	
+déterminant cardinal pluriel neutre sujet	DET	NumType=Card	Case=Nom|Gender=Neut|Number=Plur 	Case=Nom|Gender=Neut|Number=Plur|NumType=Card	
+déterminant cardinal pluriel neutre régime	DET	NumType=Card	Case=Acc|Gender=Neut|Number=Plur	Case=Acc|Gender=Neut|Number=Plur|NumType=Card	
+	DET	Definite=Com			
+déterminant défini singulier féminin sujet	DET	PronType=Art|Definite=Def	Case=Nom|Gender=Fem|Number=Sing	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	
+déterminant défini singulier féminin régime	DET	PronType=Art|Definite=Def	Case=Acc|Gender=Fem|Number=Sing	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	
+déterminant défini pluriel féminin sujet	DET	PronType=Art|Definite=Def	Case=Nom|Gender=Fem|Number=Plur 	Case=Nom|Definite=Def|Gender=Fem|Number=Plur|PronType=Art	
+déterminant défini pluriel féminin régime	DET	PronType=Art|Definite=Def	Case=Acc|Gender=Fem|Number=Plur	Case=Acc|Definite=Def|Gender=Fem|Number=Plur|PronType=Art	
+déterminant défini singulier masculin sujet	DET	PronType=Art|Definite=Def	Case=Nom|Gender=Masc|Number=Sing 	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	
+déterminant défini singulier masculin régime	DET	PronType=Art|Definite=Def	Case=Acc|Gender=Masc|Number=Sing	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	
+déterminant défini pluriel masculin sujet	DET	PronType=Art|Definite=Def	Case=Nom|Gender=Masc|Number=Plur 	Case=Nom|Definite=Def|Gender=Masc|Number=Plur|PronType=Art	
+déterminant défini pluriel masculin régime	DET	PronType=Art|Definite=Def	Case=Acc|Gender=Masc|Number=Plur	Case=Acc|Definite=Def|Gender=Masc|Number=Plur|PronType=Art	
+déterminant défini singulier neutre sujet	DET	PronType=Art|Definite=Def	Case=Nom|Gender=Neut|Number=Sing 	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	
+déterminant défini singulier neutre régime	DET	PronType=Art|Definite=Def	Case=Acc|Gender=Neut|Number=Sing	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	
+déterminant défini pluriel neutre sujet	DET	PronType=Art|Definite=Def	Case=Nom|Gender=Neut|Number=Plur 	Case=Nom|Definite=Def|Gender=Neut|Number=Plur|PronType=Art	
+déterminant défini pluriel neutre régime	DET	PronType=Art|Definite=Def	Case=Acc|Gender=Neut|Number=Plur	Case=Acc|Definite=Def|Gender=Neut|Number=Plur|PronType=Art	
+déterminant démonstratif singulier féminin sujet	DET	PronType=Dem	Case=Nom|Gender=Fem|Number=Sing	Case=Nom|Gender=Fem|Number=Sing|PronType=Dem	
+déterminant démonstratif singulier féminin régime	DET	PronType=Dem	Case=Acc|Gender=Fem|Number=Sing	Case=Acc|Gender=Fem|Number=Sing|PronType=Dem	
+déterminant démonstratif pluriel féminin sujet	DET	PronType=Dem	Case=Nom|Gender=Fem|Number=Plur 	Case=Nom|Gender=Fem|Number=Plur|PronType=Dem	
+déterminant démonstratif pluriel féminin régime	DET	PronType=Dem	Case=Acc|Gender=Fem|Number=Plur	Case=Acc|Gender=Fem|Number=Plur|PronType=Dem	
+déterminant démonstratif singulier masculin sujet	DET	PronType=Dem	Case=Nom|Gender=Masc|Number=Sing 	Case=Nom|Gender=Masc|Number=Sing|PronType=Dem	
+déterminant démonstratif singulier masculin régime	DET	PronType=Dem	Case=Acc|Gender=Masc|Number=Sing	Case=Acc|Gender=Masc|Number=Sing|PronType=Dem	
+déterminant démonstratif pluriel masculin sujet	DET	PronType=Dem	Case=Nom|Gender=Masc|Number=Plur 	Case=Nom|Gender=Masc|Number=Plur|PronType=Dem	
+déterminant démonstratif pluriel masculin régime	DET	PronType=Dem	Case=Acc|Gender=Masc|Number=Plur	Case=Acc|Gender=Masc|Number=Plur|PronType=Dem	
+déterminant démonstratif singulier neutre sujet	DET	PronType=Dem	Case=Nom|Gender=Neut|Number=Sing 	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	
+déterminant démonstratif singulier neutre régime	DET	PronType=Dem	Case=Acc|Gender=Neut|Number=Sing	Case=Acc|Gender=Neut|Number=Sing|PronType=Dem	
+déterminant démonstratif pluriel neutre sujet	DET	PronType=Dem	Case=Nom|Gender=Neut|Number=Plur 	Case=Nom|Gender=Neut|Number=Plur|PronType=Dem	
+déterminant démonstratif pluriel neutre régime	DET	PronType=Dem	Case=Acc|Gender=Neut|Number=Plur	Case=Acc|Gender=Neut|Number=Plur|PronType=Dem	
+déterminant indéfini singulier féminin sujet	DET	PronType=Ind	Case=Nom|Gender=Fem|Number=Sing	Case=Nom|Gender=Fem|Number=Sing|PronType=Ind	
+déterminant indéfini singulier féminin régime	DET	PronType=Ind	Case=Acc|Gender=Fem|Number=Sing	Case=Acc|Gender=Fem|Number=Sing|PronType=Ind	
+déterminant indéfini pluriel féminin sujet	DET	PronType=Ind	Case=Nom|Gender=Fem|Number=Plur 	Case=Nom|Gender=Fem|Number=Plur|PronType=Ind	
+déterminant indéfini pluriel féminin régime	DET	PronType=Ind	Case=Acc|Gender=Fem|Number=Plur	Case=Acc|Gender=Fem|Number=Plur|PronType=Ind	
+déterminant indéfini singulier masculin sujet	DET	PronType=Ind	Case=Nom|Gender=Masc|Number=Sing 	Case=Nom|Gender=Masc|Number=Sing|PronType=Ind	
+déterminant indéfini singulier masculin régime	DET	PronType=Ind	Case=Acc|Gender=Masc|Number=Sing	Case=Acc|Gender=Masc|Number=Sing|PronType=Ind	
+déterminant indéfini pluriel masculin sujet	DET	PronType=Ind	Case=Nom|Gender=Masc|Number=Plur 	Case=Nom|Gender=Masc|Number=Plur|PronType=Ind	
+déterminant indéfini pluriel masculin régime	DET	PronType=Ind	Case=Acc|Gender=Masc|Number=Plur	Case=Acc|Gender=Masc|Number=Plur|PronType=Ind	
+déterminant indéfini singulier neutre sujet	DET	PronType=Ind	Case=Nom|Gender=Neut|Number=Sing 	Case=Nom|Gender=Neut|Number=Sing|PronType=Ind	
+déterminant indéfini singulier neutre régime	DET	PronType=Ind	Case=Acc|Gender=Neut|Number=Sing	Case=Acc|Gender=Neut|Number=Sing|PronType=Ind	
+déterminant indéfini pluriel neutre sujet	DET	PronType=Ind	Case=Nom|Gender=Neut|Number=Plur 	Case=Nom|Gender=Neut|Number=Plur|PronType=Ind	
+déterminant indéfini pluriel neutre régime	DET	PronType=Ind	Case=Acc|Gender=Neut|Number=Plur	Case=Acc|Gender=Neut|Number=Plur|PronType=Ind	
+déterminant interrogatif singulier féminin sujet	DET	PronType=Int	Case=Nom|Gender=Fem|Number=Sing	Case=Nom|Gender=Fem|Number=Sing|PronType=Int	
+déterminant interrogatif singulier féminin régime	DET	PronType=Int	Case=Acc|Gender=Fem|Number=Sing	Case=Acc|Gender=Fem|Number=Sing|PronType=Int	
+déterminant interrogatif pluriel féminin sujet	DET	PronType=Int	Case=Nom|Gender=Fem|Number=Plur 	Case=Nom|Gender=Fem|Number=Plur|PronType=Int	
+déterminant interrogatif pluriel féminin régime	DET	PronType=Int	Case=Acc|Gender=Fem|Number=Plur	Case=Acc|Gender=Fem|Number=Plur|PronType=Int	
+déterminant interrogatif singulier masculin sujet	DET	PronType=Int	Case=Nom|Gender=Masc|Number=Sing 	Case=Nom|Gender=Masc|Number=Sing|PronType=Int	
+déterminant interrogatif singulier masculin régime	DET	PronType=Int	Case=Acc|Gender=Masc|Number=Sing	Case=Acc|Gender=Masc|Number=Sing|PronType=Int	
+déterminant interrogatif pluriel masculin sujet	DET	PronType=Int	Case=Nom|Gender=Masc|Number=Plur 	Case=Nom|Gender=Masc|Number=Plur|PronType=Int	
+déterminant interrogatif pluriel masculin régime	DET	PronType=Int	Case=Acc|Gender=Masc|Number=Plur	Case=Acc|Gender=Masc|Number=Plur|PronType=Int	
+déterminant interrogatif singulier neutre sujet	DET	PronType=Int	Case=Nom|Gender=Neut|Number=Sing 	Case=Nom|Gender=Neut|Number=Sing|PronType=Int	
+déterminant interrogatif singulier neutre régime	DET	PronType=Int	Case=Acc|Gender=Neut|Number=Sing	Case=Acc|Gender=Neut|Number=Sing|PronType=Int	
+déterminant interrogatif pluriel neutre sujet	DET	PronType=Int	Case=Nom|Gender=Neut|Number=Plur 	Case=Nom|Gender=Neut|Number=Plur|PronType=Int	
+déterminant interrogatif pluriel neutre régime	DET	PronType=Int	Case=Acc|Gender=Neut|Number=Plur	Case=Acc|Gender=Neut|Number=Plur|PronType=Int	
+déterminant ordinal singulier féminin sujet	DET	NumType=Ord	Case=Nom|Gender=Fem|Number=Sing	Case=Nom|Gender=Fem|Number=Sing|NumType=Ord	
+déterminant ordinal singulier féminin régime	DET	NumType=Ord	Case=Acc|Gender=Fem|Number=Sing	Case=Acc|Gender=Fem|Number=Sing|NumType=Ord	
+déterminant ordinal pluriel féminin sujet	DET	NumType=Ord	Case=Nom|Gender=Fem|Number=Plur 	Case=Nom|Gender=Fem|Number=Plur|NumType=Ord	
+déterminant ordinal pluriel féminin régime	DET	NumType=Ord	Case=Acc|Gender=Fem|Number=Plur	Case=Acc|Gender=Fem|Number=Plur|NumType=Ord	
+déterminant ordinal singulier masculin sujet	DET	NumType=Ord	Case=Nom|Gender=Masc|Number=Sing 	Case=Nom|Gender=Masc|Number=Sing|NumType=Ord	
+déterminant ordinal singulier masculin régime	DET	NumType=Ord	Case=Acc|Gender=Masc|Number=Sing	Case=Acc|Gender=Masc|Number=Sing|NumType=Ord	
+déterminant ordinal pluriel masculin sujet	DET	NumType=Ord	Case=Nom|Gender=Masc|Number=Plur 	Case=Nom|Gender=Masc|Number=Plur|NumType=Ord	
+déterminant ordinal pluriel masculin régime	DET	NumType=Ord	Case=Acc|Gender=Masc|Number=Plur	Case=Acc|Gender=Masc|Number=Plur|NumType=Ord	
+déterminant ordinal singulier neutre sujet	DET	NumType=Ord	Case=Nom|Gender=Neut|Number=Sing 	Case=Nom|Gender=Neut|Number=Sing|NumType=Ord	
+déterminant ordinal singulier neutre régime	DET	NumType=Ord	Case=Acc|Gender=Neut|Number=Sing	Case=Acc|Gender=Neut|Number=Sing|NumType=Ord	
+déterminant ordinal pluriel neutre sujet	DET	NumType=Ord	Case=Nom|Gender=Neut|Number=Plur 	Case=Nom|Gender=Neut|Number=Plur|NumType=Ord	
+déterminant ordinal pluriel neutre régime	DET	NumType=Ord	Case=Acc|Gender=Neut|Number=Plur	Case=Acc|Gender=Neut|Number=Plur|NumType=Ord	
+	DET	PronType=Art|Definite=Ind			
+	DET	Poss=Yes			
+					
+	DET	PronType=Rel			
+mot étranger	X	Foreign=Yes	_	Foreign=Yes	
+interjection	INTJ	_	_	_	
+	NOUN	_			
+	PROPN	_			
+mot à exclure de la lemmatisation, conjonction redondante	X	_	_	_	
+ponctuation	PUNCT	_	_	_	
+préposition	ADP	_	_	_	
+	ADP.DET	_.Definite=Com			
+	ADP.DET	_.PronType=Art|Definite=Def			
+	ADP.DET	_.PronType=Rel			
+	ADP.PRON	_.PronType=Prs			
+	ADP.PRON	_.PronType=Rel			
+pronom adverbial	ADV	PronType=Dem	_	PronType=Dem	
+pronom cardinal singulier féminin sujet	PRON	NumType=Card	Case=Nom|Gender=Fem|Number=Sing	Case=Nom|Gender=Fem|Number=Sing|NumType=Card	
+pronom cardinal singulier féminin régime	PRON	NumType=Card	Case=Acc|Gender=Fem|Number=Sing	Case=Acc|Gender=Fem|Number=Sing|NumType=Card	
+pronom cardinal pluriel féminin sujet	PRON	NumType=Card	Case=Nom|Gender=Fem|Number=Plur 	Case=Nom|Gender=Fem|Number=Plur|NumType=Card	
+pronom cardinal pluriel féminin régime	PRON	NumType=Card	Case=Acc|Gender=Fem|Number=Plur	Case=Acc|Gender=Fem|Number=Plur|NumType=Card	
+pronom cardinal singulier masculin sujet	PRON	NumType=Card	Case=Nom|Gender=Masc|Number=Sing 	Case=Nom|Gender=Masc|Number=Sing|NumType=Card	
+pronom cardinal singulier masculin régime	PRON	NumType=Card	Case=Acc|Gender=Masc|Number=Sing	Case=Acc|Gender=Masc|Number=Sing|NumType=Card	
+pronom cardinal pluriel masculin sujet	PRON	NumType=Card	Case=Nom|Gender=Masc|Number=Plur 	Case=Nom|Gender=Masc|Number=Plur|NumType=Card	
+pronom cardinal pluriel masculin régime	PRON	NumType=Card	Case=Acc|Gender=Masc|Number=Plur	Case=Acc|Gender=Masc|Number=Plur|NumType=Card	
+pronom cardinal singulier neutre sujet	PRON	NumType=Card	Case=Nom|Gender=Neut|Number=Sing 	Case=Nom|Gender=Neut|Number=Sing|NumType=Card	
+pronom cardinal singulier neutre régime	PRON	NumType=Card	Case=Acc|Gender=Neut|Number=Sing	Case=Acc|Gender=Neut|Number=Sing|NumType=Card	
+pronom cardinal pluriel neutre sujet	PRON	NumType=Card	Case=Nom|Gender=Neut|Number=Plur 	Case=Nom|Gender=Neut|Number=Plur|NumType=Card	
+pronom cardinal pluriel neutre régime	PRON	NumType=Card	Case=Acc|Gender=Neut|Number=Plur	Case=Acc|Gender=Neut|Number=Plur|NumType=Card	
+					
+	PRON	Definite=Com			
+pronom démonstratif singulier féminin sujet	PRON	PronType=Dem	Case=Nom|Gender=Fem|Number=Sing	Case=Nom|Gender=Fem|Number=Sing|PronType=Dem	
+pronom démonstratif singulier féminin régime	PRON	PronType=Dem	Case=Acc|Gender=Fem|Number=Sing	Case=Acc|Gender=Fem|Number=Sing|PronType=Dem	
+pronom démonstratif pluriel féminin sujet	PRON	PronType=Dem	Case=Nom|Gender=Fem|Number=Plur 	Case=Nom|Gender=Fem|Number=Plur|PronType=Dem	
+pronom démonstratif pluriel féminin régime	PRON	PronType=Dem	Case=Acc|Gender=Fem|Number=Plur	Case=Acc|Gender=Fem|Number=Plur|PronType=Dem	
+pronom démonstratif singulier masculin sujet	PRON	PronType=Dem	Case=Nom|Gender=Masc|Number=Sing 	Case=Nom|Gender=Masc|Number=Sing|PronType=Dem	
+pronom démonstratif singulier masculin régime	PRON	PronType=Dem	Case=Acc|Gender=Masc|Number=Sing	Case=Acc|Gender=Masc|Number=Sing|PronType=Dem	
+pronom démonstratif pluriel masculin sujet	PRON	PronType=Dem	Case=Nom|Gender=Masc|Number=Plur 	Case=Nom|Gender=Masc|Number=Plur|PronType=Dem	
+pronom démonstratif pluriel masculin régime	PRON	PronType=Dem	Case=Acc|Gender=Masc|Number=Plur	Case=Acc|Gender=Masc|Number=Plur|PronType=Dem	
+pronom démonstratif singulier neutre sujet	PRON	PronType=Dem	Case=Nom|Gender=Neut|Number=Sing 	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	
+pronom démonstratif singulier neutre régime	PRON	PronType=Dem	Case=Acc|Gender=Neut|Number=Sing	Case=Acc|Gender=Neut|Number=Sing|PronType=Dem	
+pronom démonstratif pluriel neutre sujet	PRON	PronType=Dem	Case=Nom|Gender=Neut|Number=Plur 	Case=Nom|Gender=Neut|Number=Plur|PronType=Dem	
+pronom démonstratif pluriel neutre régime	PRON	PronType=Dem	Case=Acc|Gender=Neut|Number=Plur	Case=Acc|Gender=Neut|Number=Plur|PronType=Dem	
+pronom indéfini singulier féminin sujet	PRON	PronType=Ind	Case=Nom|Gender=Fem|Number=Sing	Case=Nom|Gender=Fem|Number=Sing|PronType=Ind	
+pronom indéfini singulier féminin régime	PRON	PronType=Ind	Case=Acc|Gender=Fem|Number=Sing	Case=Acc|Gender=Fem|Number=Sing|PronType=Ind	
+pronom indéfini pluriel féminin sujet	PRON	PronType=Ind	Case=Nom|Gender=Fem|Number=Plur 	Case=Nom|Gender=Fem|Number=Plur|PronType=Ind	
+pronom indéfini pluriel féminin régime	PRON	PronType=Ind	Case=Acc|Gender=Fem|Number=Plur	Case=Acc|Gender=Fem|Number=Plur|PronType=Ind	
+pronom indéfini singulier masculin sujet	PRON	PronType=Ind	Case=Nom|Gender=Masc|Number=Sing 	Case=Nom|Gender=Masc|Number=Sing|PronType=Ind	
+pronom indéfini singulier masculin régime	PRON	PronType=Ind	Case=Acc|Gender=Masc|Number=Sing	Case=Acc|Gender=Masc|Number=Sing|PronType=Ind	
+pronom indéfini pluriel masculin sujet	PRON	PronType=Ind	Case=Nom|Gender=Masc|Number=Plur 	Case=Nom|Gender=Masc|Number=Plur|PronType=Ind	
+pronom indéfini pluriel masculin régime	PRON	PronType=Ind	Case=Acc|Gender=Masc|Number=Plur	Case=Acc|Gender=Masc|Number=Plur|PronType=Ind	
+pronom indéfini singulier neutre sujet	PRON	PronType=Ind	Case=Nom|Gender=Neut|Number=Sing 	Case=Nom|Gender=Neut|Number=Sing|PronType=Ind	
+pronom indéfini singulier neutre régime	PRON	PronType=Ind	Case=Acc|Gender=Neut|Number=Sing	Case=Acc|Gender=Neut|Number=Sing|PronType=Ind	
+pronom indéfini pluriel neutre sujet	PRON	PronType=Ind	Case=Nom|Gender=Neut|Number=Plur 	Case=Nom|Gender=Neut|Number=Plur|PronType=Ind	
+pronom indéfini pluriel neutre régime	PRON	PronType=Ind	Case=Acc|Gender=Neut|Number=Plur	Case=Acc|Gender=Neut|Number=Plur|PronType=Ind	
+déterminant interrogatif singulier féminin sujet	PRON	PronType=Int	Case=Nom|Gender=Fem|Number=Sing	Case=Nom|Gender=Fem|Number=Sing|PronType=Int	
+déterminant interrogatif singulier féminin régime	PRON	PronType=Int	Case=Acc|Gender=Fem|Number=Sing	Case=Acc|Gender=Fem|Number=Sing|PronType=Int	
+déterminant interrogatif pluriel féminin sujet	PRON	PronType=Int	Case=Nom|Gender=Fem|Number=Plur 	Case=Nom|Gender=Fem|Number=Plur|PronType=Int	
+déterminant interrogatif pluriel féminin régime	PRON	PronType=Int	Case=Acc|Gender=Fem|Number=Plur	Case=Acc|Gender=Fem|Number=Plur|PronType=Int	
+déterminant interrogatif singulier masculin sujet	PRON	PronType=Int	Case=Nom|Gender=Masc|Number=Sing 	Case=Nom|Gender=Masc|Number=Sing|PronType=Int	
+déterminant interrogatif singulier masculin régime	PRON	PronType=Int	Case=Acc|Gender=Masc|Number=Sing	Case=Acc|Gender=Masc|Number=Sing|PronType=Int	
+déterminant interrogatif pluriel masculin sujet	PRON	PronType=Int	Case=Nom|Gender=Masc|Number=Plur 	Case=Nom|Gender=Masc|Number=Plur|PronType=Int	
+déterminant interrogatif pluriel masculin régime	PRON	PronType=Int	Case=Acc|Gender=Masc|Number=Plur	Case=Acc|Gender=Masc|Number=Plur|PronType=Int	
+déterminant interrogatif singulier neutre sujet	PRON	PronType=Int	Case=Nom|Gender=Neut|Number=Sing 	Case=Nom|Gender=Neut|Number=Sing|PronType=Int	
+déterminant interrogatif singulier neutre régime	PRON	PronType=Int	Case=Acc|Gender=Neut|Number=Sing	Case=Acc|Gender=Neut|Number=Sing|PronType=Int	
+déterminant interrogatif pluriel neutre sujet	PRON	PronType=Int	Case=Nom|Gender=Neut|Number=Plur 	Case=Nom|Gender=Neut|Number=Plur|PronType=Int	
+déterminant interrogatif pluriel neutre régime	PRON	PronType=Int	Case=Acc|Gender=Neut|Number=Plur	Case=Acc|Gender=Neut|Number=Plur|PronType=Int	
+	PRON.PRON	PronType=Int.PronType=Prs			
+pronom ordinal singulier féminin sujet	PRON	NumType=Ord	Case=Nom|Gender=Fem|Number=Sing	Case=Nom|Gender=Fem|Number=Sing|NumType=Ord	
+pronom ordinal singulier féminin régime	PRON	NumType=Ord	Case=Acc|Gender=Fem|Number=Sing	Case=Acc|Gender=Fem|Number=Sing|NumType=Ord	
+pronom ordinal pluriel féminin sujet	PRON	NumType=Ord	Case=Nom|Gender=Fem|Number=Plur 	Case=Nom|Gender=Fem|Number=Plur|NumType=Ord	
+pronom ordinal pluriel féminin régime	PRON	NumType=Ord	Case=Acc|Gender=Fem|Number=Plur	Case=Acc|Gender=Fem|Number=Plur|NumType=Ord	
+pronom ordinal singulier masculin sujet	PRON	NumType=Ord	Case=Nom|Gender=Masc|Number=Sing 	Case=Nom|Gender=Masc|Number=Sing|NumType=Ord	
+pronom ordinal singulier masculin régime	PRON	NumType=Ord	Case=Acc|Gender=Masc|Number=Sing	Case=Acc|Gender=Masc|Number=Sing|NumType=Ord	
+pronom ordinal pluriel masculin sujet	PRON	NumType=Ord	Case=Nom|Gender=Masc|Number=Plur 	Case=Nom|Gender=Masc|Number=Plur|NumType=Ord	
+pronom ordinal pluriel masculin régime	PRON	NumType=Ord	Case=Acc|Gender=Masc|Number=Plur	Case=Acc|Gender=Masc|Number=Plur|NumType=Ord	
+pronom ordinal singulier neutre sujet	PRON	NumType=Ord	Case=Nom|Gender=Neut|Number=Sing 	Case=Nom|Gender=Neut|Number=Sing|NumType=Ord	
+pronom ordinal singulier neutre régime	PRON	NumType=Ord	Case=Acc|Gender=Neut|Number=Sing	Case=Acc|Gender=Neut|Number=Sing|NumType=Ord	
+pronom ordinal pluriel neutre sujet	PRON	NumType=Ord	Case=Nom|Gender=Neut|Number=Plur 	Case=Nom|Gender=Neut|Number=Plur|NumType=Ord	
+pronom ordinal pluriel neutre régime	PRON	NumType=Ord	Case=Acc|Gender=Neut|Number=Plur	Case=Acc|Gender=Neut|Number=Plur|NumType=Ord	
+	PRON	PronType=Prs			
+enclise pronom personnel et pronom adverbial	PRON.ADV	PronType=Prs.PronType=Dem	#valeursduproper#	#valeursduproper#.PronType=Dem	attention ici
+enclise de deux pronoms personnels	PRON.PRON	PronType=Prs.PronType=Prs	#valeursduproper#.#valeursduproper#	#valeursduproper#.#valeursduproper#	attention ici
+	PRON	Poss=Yes			
+	PRON	PronType=Rel			
+enclise pronom relatif et pronom adverbial	PRON.ADV	PronType=Rel.PronType=Dem	#valeursduprorel#	#valeursduprorel#.PronType=Dem	attention ici
+enclise pronom relatif et pronom personnel	PRON.PRON	PronType=Rel.PronType=Prs	#valeursduprorel#.#valeursduproper#	#valeursduprorel#.#valeursduproper#	attention ici
+	VERB	VerbForm=Fin	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin 		
+	VERB	VerbForm=Inf	_	_	
+	VERB	VerbForm=Part|Tense=Pres			
+	VERB	VerbForm=Part|Tense=Past			

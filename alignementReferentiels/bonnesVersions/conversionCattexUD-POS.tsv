@@ -1,0 +1,67 @@
+intitulé	Cattex2009	UD-pos	UD-feats	commentaires
+abréviation	ABR	X	Abbr=Yes	
+adjectif cardinal	ADJcar	ADJ	NumType=Card	
+adjectif indéfini	ADJind	ADJ	PronType=Ind	
+adjectif ordinal	ADJord	ADJ	NumType=Ord	
+adjectif possessif	ADJpos	ADJ	Poss=Yes	
+adjectif qualificatif	ADJqua	ADJ	_	
+adverbe général	ADVgen	ADV	_	
+enclise adverbe et pronom adverbial	ADVgen.PROadv	ADV+PRON	_+PronType=Prs	*
+enclise adverbe et pronom personnel	ADVgen.PROper	ADV+PRON	_+PronType=Prs	*
+adverbe interro-négatif	ADVing	ADV	Polarity=Neg|PronType=Int	
+adverbe interrogatif	ADVint	ADV	PronType=Int	
+adverbe négatif	ADVneg	ADV	Polarity=Neg	
+enclise adverbe négatif et pronom adverbial	ADVneg.PROadv	ADV+PRON	Polarity=Neg+PronType=Prs	*
+enclise adverbe négatif et pronom personnel	ADVneg.PROper	ADV+PRON	Polarity=Neg+PronType=Prs	*
+adverbe subordonnant	ADVsub	ADV	_	
+conjonction de coordination	CONcoo	CCONJ	_	
+conjonction de subordination	CONsub	SCONJ	_	
+enclise conjonction de subordination et pronom personnel	CONsub.PROper	SCONJ+PRON	_+PronType=Prs	*
+déterminant cardinal	DETcar	DET	NumType=Card	
+déterminant composé	DETcom	DET	Definite=Def|PronType=Art	comme DETdef | refus de Com (Complex) | DET+VERB
+déterminant défini	DETdef	DET	Definite=Def|PronType=Art	
+déterminant démonstratif	DETdem	DET	PronType=Dem	
+déterminant indéfini	DETind	DET	PronType=Ind	
+déterminant interrogatif	DETint	DET	PronType=Int	
+déterminant non défini	DETndf	DET	Definite=Ind|PronType=Art	
+déterminant ordinal	DETord	DET	NumType=Ord	
+déterminant possessif	DETpos	DET	Poss=Yes	
+déterminant relatif	DETrel	DET	PronType=Rel	
+mot langue étrangère	ETR	X	Foreign=Yes	
+interjection	INJ	INTJ	_	
+nom commun (substantif)	NOMcom	NOUN	_	
+nom propre	NOMpro	PROPN	_	
+ce qui n’a pas été retenu (OUT)	OUT	X	_	
+ponctuation faible	PONfbl	PUNCT	_	
+ponctuation forte	PONfrt	PUNCT	_	
+ponctuation ouvrante	PONpdr	PUNCT	_	
+ponctuation fermante	PONpga	PUNCT	_	
+autre signe de ponctuation	PONpxx	PUNCT	_	
+préposition	PRE	ADP	_	
+enclise préposition déterminant composé	PRE.DETcom	ADP+DET	_+Definite=Def|PronType=Art	*
+enclise préposition déterminant défini	PRE.DETdef	ADP+DET	_+Definite=Def|PronType=Art	*
+enclise préposition déterminant relatif	PRE.DETrel	ADP+DET	_+PronType=Rel	*
+enclise préposition pronom personnel	PRE.PROper	ADP+PRON	_+PronType=Prs	*
+enclise préposition pronom relatif	PRE.PROrel	ADP+PRON	_+PronType=Rel	*
+pronom adverbial	PROadv	PRON	PronType=Prs	idéal serait de créer un PronType=Adv
+pronom cardinal	PROcar	PRON	NumType=Card	
+pronom composé	PROcom	PRON	Definite=Def|PronType=Art	
+pronom démonstratif	PROdem	PRON	PronType=Dem	
+pronom personnel	PROimp	PRON	PronType=Prs	
+pronom indéfini	PROind	PRON	PronType=Ind	
+pronom interrogatif	PROint	PRON	PronType=Int	
+enclise pronom interrogatif pronom personnel	PROint.PROper	PRON+PRON	PronType=Int+PronType=Prs	*
+pronom ordinal	PROord	PRON	NumType=Ord	
+pronom personnel	PROper	PRON	PronType=Prs	
+enclise pronom personnel pronom adverbial	PROper.PROadv	PRON+PRON	PronType=Prs+PronType=Prs	*
+enclise pronom personnel pronom personnel	PROper.PROper	PRON+PRON	PronType=Prs+PronType=Prs	*
+pronom possessif	PROpos	PRON	Poss=Yes	
+pronom relatif	PROrel	PRON	PronType=Rel	
+enclise pronom relatif pronom adverbial	PROrel.PROadv	PRON+PRON	PronType=Rel+PronType=Prs	*
+enclise pronom relatif pronom personnel	PROrel.PROper	PRON+PRON	PronType=Rel+PronType=Prs	*
+redondance	RED	X	_	
+ce qui n’a pas été retenu (RES)	RES	X	_	
+verbe conjugué	VERcjg	VERB	VerbForm=Fin	
+verbe à l’infinitif	VERinf	VERB	VerbForm=Inf	
+verbe au participe présent	VERppa	VERB	Tense=Pres|VerbForm=Part	
+verbe au participe passé	VERppe	VERB	Tense=Past|VerbForm=Part	
