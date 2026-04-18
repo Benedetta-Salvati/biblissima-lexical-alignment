@@ -86,7 +86,7 @@ def extract_equivalences_from_art(art):
     if not (tl_values or gd_values or gdc_values or and_values or dect_values or dmf):
         return []
 
-    # Pour rester proche du script d'origine :
+    # Pour rester proche du script d'origine (par LI) :
     # s'il n'y a pas de valeurs pour un champ, on met "" (une seule option)
     # sinon on fait une ligne par combinaison des listes.
     def opts(values):
@@ -106,7 +106,7 @@ def extract_equivalences_from_art(art):
 
 
 def main():
-    # Chemins (adaptés à ton dossier actuel)
+    # Chemins adaptés au dossier actuel
     xml_path = "DICT_2024-05-29-corr.xml"
     out_dir = "output"
     out_path = os.path.join(out_dir, "data_df_lemmes.tsv")
@@ -114,8 +114,8 @@ def main():
     if not os.path.exists(xml_path):
         raise FileNotFoundError(
             f"Fichier XML introuvable: {xml_path}\n"
-            f"Place DICT_2024-05-29-corr.xml dans le même dossier que ce script, "
-            f"ou modifie xml_path."
+            f"Placer DICT_2024-05-29-corr.xml dans le même dossier que ce script, "
+            f"ou modifier xml_path."
         )
 
     os.makedirs(out_dir, exist_ok=True)
