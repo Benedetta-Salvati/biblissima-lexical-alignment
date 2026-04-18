@@ -1,3 +1,8 @@
+# Ce script propose des propositions de corrections des entrées tl dans le référentiel
+# Il se fonde sur la listes des entrées à jour (Université de Stuttgart)
+# Les sous-entrées ne sont pas prises en charge car absentes de la base d'alignement Tobler
+# Utile pour la post-correction des entrée GD, DMF, et d'autres ?
+
 import re
 import unicodedata
 from pathlib import Path
