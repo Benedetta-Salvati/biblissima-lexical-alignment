@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:svg="http://www.w3.org/2000/svg"
+  xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Spécification ODD du référentiel des noms propres OF3C</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Document de travail</p>
+      </publicationStmt>
+      <sourceDesc>
+        <p/>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <schemaSpec ident="oddex1" start="TEI">
+        <moduleRef key="header"/>
+        <moduleRef key="core"/>
+        <moduleRef key="tei"/>
+        <moduleRef key="textstructure"/>
+        <moduleRef key="tagdocs"/>
+        <moduleRef key="dictionaries"/>
+        <moduleRef key="namesdates"/>
+        <moduleRef key="linking"/>
+
+        <elementSpec ident="ART">
+          <gloss>Article</gloss>
+          <desc>Notice lexicographique regroupant vedette, références, lemmes et graphies.</desc>
+          <content>
+            <sequence>
+              <elementRef key="VED"/>
+              <elementRef key="FORME_REF" minOccurs="0" maxOccurs="unbounded"/>
+              <elementRef key="CODE"/>
+              <elementRef key="LEM" maxOccurs="unbounded"/>
+              <elementRef key="FORMES"/>
+            </sequence>
+          </content>
+          <attList>
+            <attDef ident="type" usage="req">
+              <desc>Type déclaré de notice.</desc>
+              <valList type="closed">
+                <valItem ident="complNOMpro">
+                  <desc>Complément lexical des noms propres.</desc>
+                </valItem>
+              </valList>
+            </attDef>
+            <attDef ident="n_lemmes" usage="req">
+              <desc>Nombre de lemmes déclarés dans l'article.</desc>
+              <datatype>
+                <dataRef key="teidata.nonNegativeInteger"/>
+              </datatype>
+            </attDef>
+          </attList>
+        </elementSpec>
+
+        <elementSpec ident="VED">
+          <gloss>vedette</gloss>
+          <desc>Citation correspondant au lemme le plus fréquemment utilisé dans l'étiquetage du
+            corpus ou, en cas d'égalité, à celui présent dans le plus grand nombre de textes</desc>
+        </elementSpec>
+
+        <elementSpec ident="FORME_REF">
+          <gloss>Forme de référence retenue.</gloss>
+          <!-- selon les critères de citation définis ci-dessous -->
+          <!-- à mettre par écrit -->
+          <attList>
+            <attDef ident="type" usage="req">
+              <desc>Critère de sélection de la référence.</desc>
+              <datatype>
+                <dataRef key="teidata.word"/>
+              </datatype>
+              <valList type="closed">
+                <valItem ident="cas-regime">
+                  <desc>Forme identifiée comme cas régime.</desc>
+                </valItem>
+                <valItem ident="ancien-francais">
+                  <desc>Forme de référence en ancien français (non-normalisée).</desc>
+                </valItem>
+                <valItem ident="latin">
+                  <desc>Forme de référence en latin.</desc>
+                </valItem>
+              </valList>
+            </attDef>
+            <attDef ident="source" usage="req">
+              <desc>Corpus déclaré à l'origine de la référence.</desc>
+              <valList type="closed">
+                <valItem ident="OF3C">
+                  <desc>Corpus OF3C.</desc>
+                </valItem>
+              </valList>
+            </attDef>
+            <attDef ident="n_occ" usage="req">
+              <desc>Nombre d'occurrences déclaré pour la forme de référence.</desc>
+              <datatype>
+                <dataRef key="teidata.nonNegativeInteger"/>
+              </datatype>
+            </attDef>
+            <attDef ident="n_textes" usage="req">
+              <desc>Nombre de textes déclaré pour la forme de référence.</desc>
+              <datatype>
+                <dataRef key="teidata.nonNegativeInteger"/>
+              </datatype>
+            </attDef>
+            <attDef ident="statut" usage="opt">
+              <desc>Statut d'attestation.</desc>
+              <datatype>
+                <dataRef key="teidata.word"/>
+              </datatype>
+              <valList type="closed">
+                <valItem ident="atteste">
+                  <desc>Forme signalée comme attestée.</desc>
+                </valItem>
+              </valList>
+            </attDef>
+            <attDef ident="cas" usage="opt">
+              <desc>Cas grammatical attribué (CR/CS), observé pour le type ancien-français.</desc>
+              <datatype>
+                <dataRef key="teidata.word"/>
+              </datatype>
+              <valList type="closed">
+                <valItem ident="regime">
+                  <desc>Cas régime.</desc>
+                </valItem>
+              </valList>
+            </attDef>
+          </attList>
+          <remarks>
+            <p>Dans le fichier, toutes les formes ancien-françaises ont statut="atteste" et
+              cas="regime".</p>
+            <!-- regularisation des normalisations -->
+          </remarks>
+        </elementSpec>
+
+        <elementSpec ident="CODE">
+          <gloss>Catégorie morphosyntaxique</gloss>
+          <remarks>
+            <p>Noms propres, le fichier ne discriminant pas systématiquement anthroponymes et
+              toponymes.</p>
+          </remarks>
+        </elementSpec>
+
+        <elementSpec ident="LEM">
+          <gloss>Lemme</gloss>
+          <desc>Lemmes attestés dans le corpus.</desc>
+          <attList>
+            <attDef ident="n_occ" usage="req">
+              <desc>Nombre d'occurrences du lemme.</desc>
+              <datatype>
+                <dataRef key="teidata.nonNegativeInteger"/>
+              </datatype>
+            </attDef>
+            <attDef ident="n_textes" usage="req">
+              <desc>Nombre déclaré de sources.</desc>
+              <datatype>
+                <dataRef key="teidata.nonNegativeInteger"/>
+              </datatype>
+            </attDef>
+          </attList>
+        </elementSpec>
+
+        <elementSpec ident="FORMES">
+          <gloss>Graphies attestées</gloss>
+          <desc>Regroupe toutes les formes graphiques rattachées à une notice.</desc>
+          <content>
+            <elementRef key="FORM" maxOccurs="unbounded"/>
+          </content>
+        </elementSpec>
+
+        <elementSpec ident="FORM">
+          <gloss>Forme graphique</gloss>
+          <desc>Graphie distincte accompagnée de ses statistiques et sources spécifiques.</desc>
+          <content>
+            <sequence>
+              <elementRef key="ORTH"/>
+              <elementRef key="TEXTES"/>
+            </sequence>
+          </content>
+          <attList>
+            <attDef ident="n_occ" usage="req">
+              <desc>Occurrences de la graphie.</desc>
+              <datatype>
+                <dataRef key="teidata.nonNegativeInteger"/>
+              </datatype>
+            </attDef>
+            <attDef ident="n_textes" usage="req">
+              <desc>Nombre de fichiers contenant cette graphie.</desc>
+              <datatype>
+                <dataRef key="teidata.nonNegativeInteger"/>
+              </datatype>
+            </attDef>
+          </attList>
+        </elementSpec>
+
+        <elementSpec ident="ORTH">
+          <gloss>Graphie</gloss>
+          <desc>Graphie conservée telle qu'elle apparaît dans les données agrégées.</desc>
+        </elementSpec>
+
+        <elementSpec ident="TEXTES">
+          <gloss>Liste des sources</gloss>
+          <desc>Rassemble les références aux fichiers attestant la graphie.</desc>
+          <content>
+            <elementRef key="TEXTE" maxOccurs="unbounded"/>
+          </content>
+        </elementSpec>
+
+        <elementSpec ident="TEXTE">
+          <gloss>Source</gloss>
+          <desc>Fichier source et nombre d'occurrences de la graphie dans celui-ci.</desc>
+        </elementSpec>
+      </schemaSpec>
+      <div>
+        <head n="1">Périmètre et statut de la spécification</head>
+        <p>Le vocabulaire utilisé comprend DMF, ART, VED, FORME_REF, CODE, LEM, FORMES, FORM, ORTH,
+          TEXTES et TEXTE. Les éléments ne sont pas natifs de la TEI.</p>
+        <p>Les modules TEI déclarés ci-dessous servent au document ODD et à son environnement TEI.
+          Les équivalents TEI recommandés pour une migration sont documentés après le schéma.</p>
+      </div>
+      <!--
+      <div>
+        <head n="2">Correspondances vers les éléments TEI P5</head>
+        <p>
+          <term>DMF, ART</term>
+          <seg>Correspondance avec les éléments <gi>TEI</gi>, <gi>teiCorpus</gi> et <gi>entry</gi>.
+            L'élément <gi>entry</gi>, défini dans le module <term>dictionaries</term>, représente
+            l'article lexical. Les éléments <gi>TEI</gi> et <gi>teiCorpus</gi> assurent
+            respectivement l'encadrement des documents et leur regroupement en corpus, avec les
+            métadonnées associées dans les en-têtes TEI.</seg>
+        </p>
+        <p>
+          <term>VED, LEM</term>
+          <seg>Correspondance avec l'élément <gi>form</gi>, dont l'attribut <att>type</att> prend la
+            valeur <val>lemma</val>, contenant un élément <gi>orth</gi>. La distinction entre
+            vedette et lemme peut être précisée au moyen de valeurs contrôlées de l'attribut
+              <att>type</att> et documentée dans un élément <gi>note</gi>.</seg>
+        </p>
+        <p>
+          <term>FORMES, FORM, ORTH</term>
+          <seg>Correspondance avec l'élément <gi>form</gi>, dont l'attribut <att>type</att> prend la
+            valeur <val>variant</val>, contenant un élément <gi>orth</gi>. Chaque variante graphique
+            est conservée et peut être reliée à ses attestations au moyen d'identifiants et
+            d'attributs de liaison. </seg>
+        </p>
+        <p>
+          <term>FORME_REF</term>
+          <seg> Correspondance avec l'élément <gi>form</gi>, dont l'attribut <att>type</att> prend
+            la valeur <val>reference</val>, contenant un élément <gi>orth</gi>.</seg>
+        </p>
+        <p>
+          <term>CODE</term>
+          <seg>Correspondance avec l'élément <gi>pos</gi>, contenu dans <gi>gramGrp</gi>. La
+            catégorie « nom propre » peut être représentée par une valeur contrôlée de l'attribut
+              <att>value</att> de <gi>pos</gi>. </seg>
+        </p>
+        <p>
+          <term>TEXTES, TEXTE</term>
+          <seg>Correspondance avec les éléments <gi>cit</gi> et <gi>quote</gi> pour les
+            attestations textuelles, ou avec l'élément <gi>ref</gi> pour les références aux sources.
+            Les références bibliographiques peuvent être regroupées dans <gi>listBibl</gi> et
+            décrites au moyen de <gi>bibl</gi>. La provenance des attestations peut être établie au
+            moyen des attributs <att>target</att> ou <att>corresp</att>, associés à des identifiants
+            de textes définis par l'attribut <att>xml:id</att>. </seg>
+        </p>
+        <p>Ces correspondances constituent des recommandations pour la migration vers le modèle TEI
+          P5. Une migration complète nécessitera de préciser les modalités d'encodage des
+          attestations, la représentation des entités nommées, la définition des vocabulaires
+          contrôlés et la gestion des identifiants pérennes. </p>
+      </div>
+      -->
+    </body>
+  </text>
+</TEI>
